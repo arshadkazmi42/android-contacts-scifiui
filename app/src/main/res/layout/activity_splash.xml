@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.kaspat.contacts.activity.SplashActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <com.kaspat.contacts.widgets.RegularTextView
+        android:id="@+id/tvContactNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Downloading Contacts..."
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/textPrimary"
+        android:layout_marginTop="15dp"
+        android:lines="1"
+        />
+
+</LinearLayout>

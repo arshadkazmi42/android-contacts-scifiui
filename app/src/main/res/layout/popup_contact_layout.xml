@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/llContact"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        >
+
+        <LinearLayout
+            android:id="@+id/llMain"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bgPrimaryDark"
+            android:padding="20dp"
+            android:layout_margin="20dp"
+            >
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:background="@drawable/primary_light_border"
+                android:padding="15dp"
+                >
+
+                <ImageView
+                    android:id="@+id/ivContactImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_avatar"
+                    />
+
+            </LinearLayout>
+
+            <com.kaspat.contacts.widgets.RegularTextView
+                android:id="@+id/tvContactName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:gravity="center"
+                android:textSize="30sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/textPrimary"
+                />
+
+            <com.kaspat.contacts.widgets.RegularTextView
+                android:id="@+id/tvContactNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="@color/textPrimaryLight"
+                />
+
+            <com.kaspat.contacts.widgets.RegularTextView
+                android:id="@+id/tvEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/textPrimaryLight"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_marginTop="15dp"
+                android:padding="5dp"
+                >
+
+                <ImageView
+                    android:id="@+id/ivCall"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_phone"
+                    />
+
+                <ImageView
+                    android:id="@+id/ivSms"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_chat"
+                    />
+
+                <ImageView
+                    android:id="@+id/ivWhatsapp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_whatsapp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivClose"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:layout_marginRight="-3dp"
+            android:layout_marginTop="-3dp"
+            android:src="@drawable/ic_cross"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
