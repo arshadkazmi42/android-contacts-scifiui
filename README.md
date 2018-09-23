@@ -9,6 +9,7 @@
 Note: Marshmallow runtime permissions support not added. You need to enable permission manually in app settings for this app to work
 
 ## ScreenShots
-![screen1](https://github.com/arshadkazmi42/android-contacts-scifiui/blob/master/Screenshots/Screenshot_2018-04-18-11-27-32-881.jpeg)
-![screen2](https://github.com/arshadkazmi42/android-contacts-scifiui/blob/master/Screenshots/Screenshot_2018-04-18-11-28-14-509.jpeg)
-![screen3](https://github.com/arshadkazmi42/android-contacts-scifiui/blob/master/Screenshots/Screenshot_2018-04-18-11-30-47-926.jpeg)
+
+[<img src="Screenshots/Screenshot_2018-04-18-11-27-32-881.jpeg" width=160>](Screenshots/Screenshot_2018-04-18-11-27-32-881.jpeg)
+[<img src="Screenshots/Screenshot_2018-04-18-11-28-14-509.jpeg" width=160>](Screenshots/Screenshot_2018-04-18-11-28-14-509.jpeg)
+[<img src="Screenshots/Screenshot_2018-04-18-11-30-47-926.jpeg" width=160>](Screenshots/Screenshot_2018-04-18-11-30-47-926.jpeg)
