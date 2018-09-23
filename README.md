@@ -1,12 +1,15 @@
 <h2 align="center"><b>SyFy Android Contacts</b></h2>
 <h4 align="center">Contacts manager app, with a Scifi UI</h4>
-<h4 align="center">
-ScreenShots
+<span align="center">The contact manager app provides some cool audio on clicks and gives direct option to call, sms, whatsapp to your contacts</span>
+<h2 align="center">
+ScreenShots</h4>
+  
+ <span align="center">
   
 [<img src="Screenshots/Screenshot_2018-04-18-11-27-32-881.jpeg" width=160>](Screenshots/Screenshot_2018-04-18-11-27-32-881.jpeg)
 [<img src="Screenshots/Screenshot_2018-04-18-11-28-14-509.jpeg" width=160>](Screenshots/Screenshot_2018-04-18-11-28-14-509.jpeg)
 [<img src="Screenshots/Screenshot_2018-04-18-11-30-47-926.jpeg" width=160>](Screenshots/Screenshot_2018-04-18-11-30-47-926.jpeg)
-</h4>
+</span>
 
 ## Features
 * List of all the contacts
