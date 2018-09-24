@@ -1,11 +1,12 @@
+<p align="center"><a href="https://github.com/arshadkazmi42/android-contacts-scifiui"><img src="assets/logo.png" width="150"/></a></p>
 <h2 align="center"><b>SyFy Android Contacts</b></h2>
 <h4 align="center">Contacts manager app, with a Scifi UI</h4>
 <h5 align="center">The contact manager app provides some cool audio on clicks and gives direct option to call, sms, whatsapp to your contacts</h5>
 <h2 align="center">
 ScreenShots</h2>
-  
+
  <h4 align="center">
-  
+
 [<img src="Screenshots/Screenshot_2018-04-18-11-27-32-881.jpeg" width=160>](Screenshots/Screenshot_2018-04-18-11-27-32-881.jpeg)
 [<img src="Screenshots/Screenshot_2018-04-18-11-28-14-509.jpeg" width=160>](Screenshots/Screenshot_2018-04-18-11-28-14-509.jpeg)
 [<img src="Screenshots/Screenshot_2018-04-18-11-30-47-926.jpeg" width=160>](Screenshots/Screenshot_2018-04-18-11-30-47-926.jpeg)
@@ -42,9 +43,9 @@ Windows:
 `gradlew.bat assembleRelease`
 
 The output apk will be in `/app/build/outputs/apk/release`.
-Transfer the apk to your device and install it to use the application. 
+Transfer the apk to your device and install it to use the application.
 
-## Note 
+## Note
 * Marshmallow runtime permissions support not added. You need to enable permission manually in app settings for this app to work
 
 ## Contributors
