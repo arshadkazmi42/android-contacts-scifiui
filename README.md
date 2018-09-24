@@ -29,7 +29,7 @@ _Follow these instructions to build and run the project.._
 6. Run the app. Click `Run > Run 'app'`. After the project builds you'll be
    prompted to build or launch an emulator.
 
-# Build with gradle
+### Build with gradle
 
 If you donot have Android Studio, you can build your app with gradle
 
