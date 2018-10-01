@@ -1,19 +1,28 @@
 package com.kaspat.contacts.activity;
 
+import android.Manifest;
 import android.content.ContentResolver;
+import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.database.Cursor;
+import android.net.Uri;
 import android.os.Bundle;
 import android.provider.ContactsContract;
+import android.provider.MediaStore;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.Toast;
 
+import com.kaspat.contacts.BuildConfig;
 import com.kaspat.contacts.R;
 import com.kaspat.contacts.adapter.ContactsListAdapter;
 import com.kaspat.contacts.model.Contacts;
@@ -30,6 +39,7 @@ import butterknife.ButterKnife;
 public class MainActivity extends AppCompatActivity implements OnClickListener {
 
     private static String TAG = MainActivity.class.getSimpleName();
+
 
     @BindView(R.id.rvContacts)
     RecyclerView rvContacts;
