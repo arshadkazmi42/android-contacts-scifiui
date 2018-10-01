@@ -1,22 +1,34 @@
 package com.kaspat.contacts.activity;
 
+import android.Manifest;
+import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.provider.ContactsContract;
+import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Toast;
 
 import com.kaspat.contacts.R;
 import com.kaspat.contacts.model.Contacts;
 import com.kaspat.contacts.utils.AppController;
+import com.kaspat.contacts.widgets.RegularTextView;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 public class SplashActivity extends AppCompatActivity {
+    private RegularTextView tvInfo;
+
+    private final int PERMISSION_REQUEST_READ_CONTACTS = 1;
 
     List<Contacts> contacts = new ArrayList<>();
 
@@ -24,7 +36,44 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+        // Check permissions here
+        tvInfo = (RegularTextView) findViewById(R.id.tvContactNumber);
+        if(ContextCompat.checkSelfPermission(this, Manifest.permission.READ_CONTACTS) != PackageManager.PERMISSION_GRANTED) {
+            // Permission hasn't been granted, ask the user
+            final Activity activity = this;
+            tvInfo.setText(getString(R.string.splash_permission_required));
+            tvInfo.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    ActivityCompat.requestPermissions(activity, new String[] {Manifest.permission.READ_CONTACTS}, PERMISSION_REQUEST_READ_CONTACTS);
+                }
+            });
+        }
+        else {
+            standardLoad();
+        }
+    }
+
+    private void standardLoad() {
+        tvInfo.setText(getString(R.string.splash_loading_contacts));
         new LoadContacts().execute("");
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        switch (requestCode) {
+            case PERMISSION_REQUEST_READ_CONTACTS: {
+                if(grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    standardLoad();
+                }
+                else {
+                    Toast.makeText(this, getString(R.string.toast_permission_denied), Toast.LENGTH_LONG).show();
+                }
+                break;
+            }
+            default:
+                super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        }
     }
 
     private class LoadContacts extends AsyncTask<String, Void, List<Contacts>> {
