@@ -7,9 +7,9 @@ ScreenShots</h2>
 
  <h4 align="center">
 
-[<img src="Screenshots/Screenshot_2018-04-18-11-27-32-881.jpeg" width=160>](Screenshots/Screenshot_2018-04-18-11-27-32-881.jpeg)
-[<img src="Screenshots/Screenshot_2018-04-18-11-28-14-509.jpeg" width=160>](Screenshots/Screenshot_2018-04-18-11-28-14-509.jpeg)
-[<img src="Screenshots/Screenshot_2018-04-18-11-30-47-926.jpeg" width=160>](Screenshots/Screenshot_2018-04-18-11-30-47-926.jpeg)
+[<img src="Screenshots/1.jpeg" width=160>](Screenshots/1.jpeg)
+[<img src="Screenshots/2.jpeg" width=160>](Screenshots/2.jpeg)
+[<img src="Screenshots/3.jpeg" width=160>](Screenshots/3.jpeg)
 </h4>
 
 ## Features
