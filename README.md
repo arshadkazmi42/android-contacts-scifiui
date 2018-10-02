@@ -7,9 +7,9 @@ ScreenShots</h2>
 
  <h4 align="center">
 
-[<img src="Screenshots/1.jpeg" width=160>](Screenshots/1.jpeg)
-[<img src="Screenshots/2.jpeg" width=160>](Screenshots/2.jpeg)
-[<img src="Screenshots/3.jpeg" width=160>](Screenshots/3.jpeg)
+[<img src="assets/1.jpeg" width=160>](assets/1.jpeg)
+[<img src="assets/2.jpeg" width=160>](assets/2.jpeg)
+[<img src="assets/3.jpeg" width=160>](assets/3.jpeg)
 </h4>
 
 ## Features
@@ -51,4 +51,3 @@ Transfer the apk to your device and install it to use the application.
 
 ## Contributors
 [![](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/android-contacts-scifiui/images/0)](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/android-contacts-scifiui/links/0)[![](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/android-contacts-scifiui/images/1)](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/android-contacts-scifiui/links/1)[![](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/android-contacts-scifiui/images/2)](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/android-contacts-scifiui/links/2)[![](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/android-contacts-scifiui/images/3)](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/android-contacts-scifiui/links/3)[![](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/android-contacts-scifiui/images/4)](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/android-contacts-scifiui/links/4)[![](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/android-contacts-scifiui/images/5)](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/android-contacts-scifiui/links/5)[![](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/android-contacts-scifiui/images/6)](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/android-contacts-scifiui/links/6)[![](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/android-contacts-scifiui/images/7)](https://sourcerer.io/fame/arshadkazmi42/arshadkazmi42/android-contacts-scifiui/links/7)
-
