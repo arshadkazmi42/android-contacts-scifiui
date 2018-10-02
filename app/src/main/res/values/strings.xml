@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">Contacts</string>
 
+    <string name="splash_loading_contacts">Downloading contacts…</string>
+    <string name="splash_permission_required">Click to grant permissions</string>
+
+    <string name="toast_permission_denied">You must grant permissions in order for this app to function!</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
