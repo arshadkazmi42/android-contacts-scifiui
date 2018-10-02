@@ -13,6 +13,7 @@ ScreenShots</h2>
 </h4>
 
 ## Features
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1b7403651c6d4406ad81b29404841940)](https://www.codacy.com/app/arshadkazmi42/android-contacts-scifiui?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=arshadkazmi42/android-contacts-scifiui&amp;utm_campaign=Badge_Grade)
 * List of all the contacts
 * Detail view of contact
 * Cool audio on clicks
