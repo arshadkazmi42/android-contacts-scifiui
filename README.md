@@ -7,9 +7,9 @@ ScreenShots</h2>
 
  <h4 align="center">
 
-[<img src="Screenshots/1.jpeg" width=160>](assets/1.jpeg)
-[<img src="Screenshots/2.jpeg" width=160>](assets/2.jpeg)
-[<img src="Screenshots/3.jpeg" width=160>](assets/3.jpeg)
+[<img src="assets/1.jpeg" width=160>](assets/1.jpeg)
+[<img src="assets/2.jpeg" width=160>](assets/2.jpeg)
+[<img src="assets/3.jpeg" width=160>](assets/3.jpeg)
 </h4>
 
 ## Features
